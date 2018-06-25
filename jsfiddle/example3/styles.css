@@ -1,0 +1,10 @@
+.first {
+  margin-top: 40px;
+}
+
+h1 + p {
+  color: red;
+}
+h1 ~ p {
+  color: green;
+}
