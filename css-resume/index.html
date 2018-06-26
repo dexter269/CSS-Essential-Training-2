@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dexter Ellis III | Resume</title>
@@ -9,7 +10,13 @@
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <div class="content-wrap">
             <img class="profile-img col-narrow" src="images/dexter-ellis.jpg" alt="Picture of Dexter Ellis III">
             <div class="col-wide">
@@ -18,22 +25,23 @@
                 <p>Checkout my <a href="https://www.linkedin.com/in/dexter-ellis-iii-79852aa4/">LinkedIn</a> profile for info. </p>
             </div>
         </div>
+        <a href="resume.pdf" class="btn download" download>Download PDF</a>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
                 <!-- Job Details: copy this whole block to add more jobs -->
                 <div class="col-narrow">
                     <h3>Graduate Research Assistant</h3>
-                    <p>North Carolina Agricultural & Technical State University</p>
-                    <p>May 2018</p>
+                    <p class="uppercase">North Carolina Agricultural & Technical State University</p>
+                    <p>May 2018 - Present</p>
                 </div>
                 <!-- Add as many paragraphs as you need. -->
-                <div class="col-wide">
+                <div class="col-wide job-description">
                     <p>Job summary.</p>
 
                     <!-- This list can be deleted if you don't want to use it. -->
@@ -49,7 +57,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
             <div class="content-wrap">
                 <h2>Education</h2>
                 <div class="col-narrow">
@@ -68,16 +76,16 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
 
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:dexterellis1994@gmail.com">dexterellis1994@gmail.com</a>
-                <a href="#" target="_blank">Twitter</a>
-                <a href="https://www.linkedin.com/in/dexter-ellis-iii-79852aa4/" target="_blank">LinkedIn</a>
-                <a href="#" target="_blank">Facebook</a>
+                <a href="mailto:dexterellis1994@gmail.com"><i class="fas fa-at"></i><span class="sr-only">dexterellis1994@gmail.com</span></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i><span class="sr-only">Twitter</span></a>
+                <a href="https://www.linkedin.com/in/dexter-ellis-iii-79852aa4/" target="_blank"><i class="fab fa-linkedin-in"></i><span class="sr-only">LinkedIn</span></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a>
             </div>
 
             <p>Copyright 2018 by Dexter Ellis III</p>
