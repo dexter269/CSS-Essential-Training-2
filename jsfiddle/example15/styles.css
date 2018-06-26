@@ -1,0 +1,30 @@
+/* Screen resolution stats - http://gs.statcounter.com/screen-resolution-stats */
+
+/*
+This style will show if there is no @media
+query to target a specific size or range.
+*/
+body {
+  background: black;
+}
+
+/* Small Desktop / Portrait tablet - 1024px and smaller */
+@media (min-width: 1024px) {
+body {
+    background: lightslategrey;
+  }
+}
+
+/* Landscape tablet - 768px and smaller */
+@media (max-width: 768px){
+  body {
+    background: lightpink;
+  }
+}
+
+/* Landscape mobile 360px and smaller */
+@media (max-width: 360px) {
+  body {
+    background: lightskyblue;
+  }
+}

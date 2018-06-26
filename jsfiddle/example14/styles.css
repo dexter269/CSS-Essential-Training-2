@@ -1,0 +1,9 @@
+.content-wrap {
+  background: lightblue;
+  padding: 20px;
+  margin: 0 auto;
+  /* width: 400px; */
+  max-width: 400px;
+  width: 60%;
+  min-width: 200px;
+}
