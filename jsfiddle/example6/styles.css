@@ -1,0 +1,14 @@
+.wrapper {
+  overflow: hidden;
+}
+.box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid red;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+.box:nth-child(3n+2){
+  background: lightblue;
+}

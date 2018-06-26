@@ -1,0 +1,10 @@
+.background {
+  height: 400px;
+  /* width: 200px; */
+  background-color: black;
+  background-image: url(https://unsplash.it/300/150?image=703);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+  background-size: cover;
+}
